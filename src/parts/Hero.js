@@ -16,11 +16,8 @@ const Hero = () => {
             <p className="text-sm text-gray-300 leading-8 mb-6">
               Hi everyone, my name is M. Daffa Badran Thoriq, but you can call
               me Daffa. I am currently a Computer Science undergraduate student
-              who is very interested in the field of web development, especially
-              front end web development. I've been studying web development for
-              3 months and have created and been involved in several projects.
-              I'm still learning and mastering React Js,Next Js, and web
-              animation now and really excited to learn a lot of new things
+              who is very interested and eager to learn new things in the field
+              of web development, especially front end web development.
             </p>
             <div className="flex gap-4 mb-16 md:mb-20">
               <a
