@@ -7,17 +7,20 @@ const Hero = () => {
         {/* START: LEFT HERO */}
         <div className="md:w-1/2 w-full 0 order-2 md:order-1 mt-8 md:mt-0">
           <div className="w-full flex flex-col items-center md:items-start text-center md:text-left">
-            <h1 className="text-xl md:text-3xl font-semibold text-white mb-2 relative opacity-0 animation-h1">
+            <h1 className="text-xl md:text-3xl font-semibold text-white mb-2 relative animation-h1">
               Hi, I'm Daffa
             </h1>
             <h1 className="text-xl md:text-3xl font-semibold text-white mb-4">
               I love to breate beautiful apps
             </h1>
             <p className="text-sm text-gray-300 leading-8 mb-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-              adipisci iusto similique laudantium omnis dolore laboriosam illo
-              ratione asperiores nobis pariatur, sint corrupti voluptatibus
-              tenetur, voluptas dolorem aut dolor rem!
+              Hi everyone, my name is M. Daffa Badran Thoriq, but you can call
+              me Daffa. I am currently a Computer Science undergraduate student
+              who is very interested in the field of web development, especially
+              front end web development. I've been studying web development for
+              3 months and have created and been involved in several projects.
+              I'm still learning and mastering React Js,Next Js, and web
+              animation now and really excited to learn a lot of new things
             </p>
             <div className="flex gap-4 mb-16 md:mb-20">
               <a
@@ -29,7 +32,7 @@ const Hero = () => {
               <a
                 rel="noreferrer"
                 target="_blank"
-                href="https://drive.google.com/file/d/19kl0t5PXVqY2gzGvq4OmJ2cooBVOEFSc/view?usp=sharing"
+                href="https://drive.google.com/file/d/1aXX84OoAYErdEoBdvDC1H_-vrQAbglOb/view?usp=sharing"
                 className="flex justify-center items-center px-4 py-3 text-white bg-yellow-800 rounded-lg w-40 text-sm"
               >
                 Download Resume
