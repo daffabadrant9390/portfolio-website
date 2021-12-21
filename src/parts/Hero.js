@@ -11,7 +11,7 @@ const Hero = () => {
               Hi, I'm Daffa
             </h1>
             <h1 className="text-xl md:text-3xl font-semibold text-white mb-4">
-              I love to breate beautiful apps
+              I love to create beautiful apps
             </h1>
             <p className="text-sm text-gray-300 leading-8 mb-6">
               Hi everyone, my name is M. Daffa Badran Thoriq, but you can call
