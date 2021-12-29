@@ -41,7 +41,7 @@ const Hero = () => {
               <a
                 rel="noreferrer"
                 target="_blank"
-                href="https://drive.google.com/file/d/1hMrCqUxUKe1Axda64F6G2yv1WFn-OyFS/view?usp=sharing"
+                href="https://drive.google.com/file/d/1MbjUI2qF9wM7u1gwjXuRrUo-IB6Aaamp/view?usp=sharing"
                 className="flex justify-center items-center px-4 py-3 text-white bg-yellow-800 rounded-lg w-40 text-sm"
               >
                 Download Resume
