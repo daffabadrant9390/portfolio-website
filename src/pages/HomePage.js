@@ -8,11 +8,13 @@ import React from "react";
 import useSmoothScrollAnchor from "../helpers/hooks/useSmoothScrollAnchor";
 import useModal from "../helpers/hooks/useModal";
 import useMenuToggler from "helpers/hooks/useMenuToggler";
+import useAnimation from "../helpers/hooks/useAnimation";
 
 const HomePage = () => {
   useSmoothScrollAnchor();
   useModal();
   useMenuToggler();
+  useAnimation();
   return (
     <>
       <Header />;

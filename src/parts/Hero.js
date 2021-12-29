@@ -7,19 +7,31 @@ const Hero = () => {
         {/* START: LEFT HERO */}
         <div className="md:w-1/2 w-full 0 order-2 md:order-1 mt-8 md:mt-0">
           <div className="w-full flex flex-col items-center md:items-start text-center md:text-left">
-            <h1 className="text-xl md:text-3xl font-semibold text-white mb-2 relative animation-h1">
+            <h1
+              data-delay="0s"
+              className="anim anim-left text-xl md:text-3xl font-semibold text-white mb-2 relative opacity-0 animation-h1"
+            >
               Hi, I'm Daffa
             </h1>
-            <h1 className="text-xl md:text-3xl font-semibold text-white mb-4">
+            <h1
+              data-delay="1s"
+              className="anim anim-left text-xl md:text-3xl font-semibold text-white mb-4"
+            >
               I love to create beautiful apps
             </h1>
-            <p className="text-sm text-gray-300 leading-8 mb-6">
+            <p
+              data-delay="2s"
+              className="anim anim-left text-sm text-gray-300 leading-8 mb-6"
+            >
               Hi everyone, my name is M. Daffa Badran Thoriq, but you can call
               me Daffa. I am currently a Computer Science undergraduate student
               who is very interested and eager to learn new things in the field
               of web development, especially front end web development.
             </p>
-            <div className="flex gap-4 mb-16 md:mb-20">
+            <div
+              data-delay="4s"
+              className="anim anim-fade flex gap-4 mb-16 md:mb-20"
+            >
               <a
                 href="#my-project"
                 className="flex justify-center items-center px-4 py-3 text-white bg-blue-300 rounded-lg w-40 text-sm"
@@ -29,14 +41,14 @@ const Hero = () => {
               <a
                 rel="noreferrer"
                 target="_blank"
-                href="https://drive.google.com/file/d/1OMlvH7IQFe3kAt5xt3LQvD7ERowTKsTV/view?usp=sharing"
+                href="https://drive.google.com/file/d/1hMrCqUxUKe1Axda64F6G2yv1WFn-OyFS/view?usp=sharing"
                 className="flex justify-center items-center px-4 py-3 text-white bg-yellow-800 rounded-lg w-40 text-sm"
               >
                 Download Resume
               </a>
             </div>
             {/* start: social media account */}
-            <div className="flex flex-col">
+            <div data-delay="5s" className="anim anim-fade flex flex-col">
               <p className="text-sm text-gray-300 mb-3">Follow me on</p>
               <ul className="flex gap-6">
                 {/* start: instagram */}
@@ -124,7 +136,10 @@ const Hero = () => {
         {/* END: LEFT HERO */}
 
         {/* START: RIGHT HERO */}
-        <div className="md:w-1/2 w-full  order-1 md:order-2 flex justify-center items-center">
+        <div
+          data-delay="3s"
+          className="anim anim-right md:w-1/2 w-full order-1 md:order-2 flex justify-center items-center"
+        >
           <img
             src="./images/profile-2.png"
             alt="My Awesome Profile phts"
